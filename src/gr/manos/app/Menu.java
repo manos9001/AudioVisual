@@ -1,4 +1,13 @@
 package gr.manos.app;
 
-public class Menu {
+public enum  Menu {
+
+    CREATE,
+    DELETE,
+    SEARCH,
+    SAVE,
+    LOAD,
+
+
+
 }
