@@ -7,6 +7,9 @@ import java.util.ArrayList;
 public class MediaManager {
 
     private ArrayList<Media> medias= new ArrayList<>();
+    private ArrayList<Video> videos= new ArrayList<>();
+    private ArrayList<Audio> audios = new ArrayList<>();
+    private ArrayList <Picture> pictures = new ArrayList<>();
 
     public void addProduct(Media media){
         medias.add(media);
